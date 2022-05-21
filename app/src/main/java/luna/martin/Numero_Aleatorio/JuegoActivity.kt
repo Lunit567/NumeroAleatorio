@@ -39,8 +39,8 @@ class JuegoActivity : AppCompatActivity() {
                 }else{
                     sonidoIncorrecto()
                     Toast.makeText(this,"El valor era $numeroGenerado",Toast.LENGTH_SHORT).show()
-                    generarNumero()
                 }
+                generarNumero()
             }
         }
     }
@@ -72,5 +72,6 @@ class JuegoActivity : AppCompatActivity() {
 
     fun generarNumero(){
         numeroGenerado= Random.nextInt(1,10)
+        respuestaUsuario.text.clear()
     }
 }
