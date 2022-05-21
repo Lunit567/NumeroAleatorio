@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import luna.martin.Numero_Aleatorio.R
 import kotlin.random.Random
 
 class JuegoActivity : AppCompatActivity() {
