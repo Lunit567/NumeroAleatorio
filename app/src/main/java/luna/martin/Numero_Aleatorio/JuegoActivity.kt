@@ -71,6 +71,6 @@ class JuegoActivity : AppCompatActivity() {
 
     fun generarNumero(){
         numeroGenerado= Random.nextInt(1,10)
-        respuestaUsuario.text.clear()
+        //respuestaUsuario.text.clear()
     }
 }
