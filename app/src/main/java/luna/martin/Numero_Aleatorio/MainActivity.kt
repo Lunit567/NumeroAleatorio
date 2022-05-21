@@ -3,7 +3,6 @@ package luna.martin.Numero_Aleatorio
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import luna.martin.Numero_Aleatorio.R
 import android.widget.Button as Button1
 
 class MainActivity : AppCompatActivity() {

@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import luna.martin.Numero_Aleatorio.R
 import kotlin.random.Random
 
 class JuegoActivity : AppCompatActivity() {
@@ -39,8 +38,8 @@ class JuegoActivity : AppCompatActivity() {
                 }else{
                     sonidoIncorrecto()
                     Toast.makeText(this,"El valor era $numeroGenerado",Toast.LENGTH_SHORT).show()
-                    generarNumero()
                 }
+                generarNumero()
             }
         }
     }
@@ -72,5 +71,6 @@ class JuegoActivity : AppCompatActivity() {
 
     fun generarNumero(){
         numeroGenerado= Random.nextInt(1,10)
+        respuestaUsuario.text.clear()
     }
 }
